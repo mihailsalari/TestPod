@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TestPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TestPod. adasdasd asfdas fasf asfas fa'
+  s.summary          = 'Testing my first pod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here. fasfasf fdsf sdf sdfsdfsd fdsf sdfs dfsd fs
+To run the example project, clone the repo, and run pod install from the Example directory first.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TestPod'
+  s.homepage         = 'https://github.com/mihailsalari/TestPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mihai' => 'test@test.com' }
-  s.source           = { :git => 'git@github.com:mihailsalari/TestPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mihailsalari/TestPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
